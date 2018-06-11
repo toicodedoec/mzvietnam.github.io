@@ -10,3 +10,70 @@ body {
 p {
   font-size: 14px;
 }
+
+/* HEADER */
+.header {
+  background-image: url("../images/background-1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+.header-overlay {
+  background-color: rgba(31, 31, 31, 0.75);
+  height: 100vh;
+  min-height: 700px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.logo {
+  padding-bottom: 50px;
+}
+.logo img {
+  height: 250px;
+  width: 250px;
+}
+.header-text h1 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+.header-text p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 300;
+}
+.scroll-down {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited {
+  font-size: 30px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  letter-spacing: normal;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.btn-tour:hover {
+  color: grey;
+  border: 2px solid grey;
+}
