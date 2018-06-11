@@ -83,12 +83,15 @@ p {
   line-height: 28px;
   font-weight: 300;
 }
-@media (min-width: 769px) {
+@media (max-width: 769px) {
   .scroll-down {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
+    display: none;
   }
+}
+.scroll-down {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
 }
 .btn-tour,
 .btn-tour:focus,
